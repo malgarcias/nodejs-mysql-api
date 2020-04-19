@@ -1,6 +1,0 @@
-project id: nodejs-mysql-api
-sql_root_password: fPd1dlHpiPJzI4ea
-sql_server_instance: desserts-instance
-db_name: desserts_db
-db_user: nodejs-mysql-api
-db_password: kl4ndaII$$
