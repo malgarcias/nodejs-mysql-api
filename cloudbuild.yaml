@@ -1,4 +1,4 @@
 steps:
-  - timeout: 600s
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['builds', 'submit',  '--tag gcr.io/nodejs-mysql-api-274500/desserts-api', '--project', 'nodejs-mysql-api-274500']
+  - timeout: 600s
