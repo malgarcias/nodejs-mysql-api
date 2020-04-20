@@ -4,3 +4,6 @@ sql_server_instance: desserts-instance
 db_name: desserts_db
 db_user: nodejs-mysql-api
 db_password: kl4ndaII$$
+
+
+instance_connection_name: nodejs-mysql-api-274500:us-central1:desserts-instance
