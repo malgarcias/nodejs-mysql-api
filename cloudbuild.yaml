@@ -13,5 +13,3 @@ steps:
     - '--platform'
     - 'managed'
     - '--allow-unauthenticated'
-    - '--connectivity'
-    - 'external'
