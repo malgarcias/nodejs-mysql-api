@@ -1,4 +1,15 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['builds', 'submit',  '--tag', 'gcr.io/nodejs-mysql-api-274500/desserts-api', '--project', 'nodejs-mysql-api-274500']
-  
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+    - 'run'
+    - 'deploy'
+    - 'desserts-api'
+    - '--image'
+    - 'gcr.io/nodejs-mysql-api/desserts-api:latest'
+    - '--region'
+    - 'us-central1'
+    - '--platform'
+    - 'managed'
+    - '--allow-unauthenticated'
